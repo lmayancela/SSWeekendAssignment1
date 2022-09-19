@@ -19,7 +19,7 @@ public class GroupSumClump {
     /* Recursive Algorithm */
     private boolean performSumCheck(Accumulator accum, List<Cells> groupingReduced) {
         System.out.println(String.format("(accum: %d, currGroupings: %s)", accum.getAccum(), groupingReduced.toString()));
-        BooleanChecker sumExists = new BooleanChecker(); // New Boolean tracker to keep check of this recursive call's results
+        BooleanChecker sumExists = new BooleanChecker(false); // New Boolean tracker to keep check of this recursive call's results
         if(accum.getAccum() == target) {
             return true;
         } else {

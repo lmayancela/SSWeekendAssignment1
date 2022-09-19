@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.lisandro.app.classes.InputParser;
+import com.lisandro.app.classes.lambdas.InputParser;
 
 public class ParserTest {
     final String PATH = "src/test/java/com/lisandro/app/";

@@ -1,4 +1,4 @@
-package com.lisandro.app.classes;
+package com.lisandro.app.classes.singleton;
 
 // Class for a singleton with double checked locking
 public class SampleSingleton {

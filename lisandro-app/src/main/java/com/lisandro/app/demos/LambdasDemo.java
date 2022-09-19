@@ -2,8 +2,8 @@ package com.lisandro.app.demos;
 
 import java.util.List;
 
-import com.lisandro.app.classes.InputParser;
-import com.lisandro.app.classes.OperationsRunner;
+import com.lisandro.app.classes.lambdas.InputParser;
+import com.lisandro.app.classes.lambdas.OperationsRunner;
 
 public class LambdasDemo {
     final static String PATH = "SSWeekendAssignment1/lisandro-app/src/main/java/com/lisandro/app/";
@@ -15,6 +15,6 @@ public class LambdasDemo {
         runner.runOperations();
         List<String> results = runner.getResults();
         results.stream().map(operation -> operation.toString()).forEach(System.out::println);
-        
+
     }
 }

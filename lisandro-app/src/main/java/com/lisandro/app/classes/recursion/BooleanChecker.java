@@ -3,8 +3,8 @@ package com.lisandro.app.classes.recursion;
 public class BooleanChecker {
     private boolean flag;
 
-    public BooleanChecker() {
-        flag = false;
+    public BooleanChecker(boolean flag) {
+        this.flag = flag;
     }
 
     public boolean getFlag() {

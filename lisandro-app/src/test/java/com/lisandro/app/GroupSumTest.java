@@ -1,6 +1,7 @@
 package com.lisandro.app;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import java.util.List;
@@ -30,7 +31,7 @@ public class GroupSumTest {
 
     @Test
     public void sumCheckShouldReturnProperly() {
-        GroupSumClump gsc = new GroupSumClump(test, 20);
-        assertTrue(gsc.startSumCheck());
+        GroupSumClump gsc1 = new GroupSumClump(test, 20);
+        assertTrue(gsc1.startSumCheck());
     }
 }

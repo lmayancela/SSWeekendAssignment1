@@ -1,4 +1,4 @@
-package com.lisandro.app.classes;
+package com.lisandro.app.classes.lambdas;
 
 import java.io.BufferedReader;
 import java.io.File;

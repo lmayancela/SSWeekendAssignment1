@@ -1,4 +1,4 @@
-package com.lisandro.app.classes;
+package com.lisandro.app.classes.lambdas;
 
 import java.util.function.IntPredicate;
 import java.util.stream.IntStream;

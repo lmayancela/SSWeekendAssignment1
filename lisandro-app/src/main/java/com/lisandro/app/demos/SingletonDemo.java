@@ -1,6 +1,6 @@
 package com.lisandro.app.demos;
 
-import com.lisandro.app.classes.SampleSingleton;
+import com.lisandro.app.classes.singleton.SampleSingleton;
 
 public class SingletonDemo {
     

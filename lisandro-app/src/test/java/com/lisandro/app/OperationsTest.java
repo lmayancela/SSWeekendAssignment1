@@ -7,9 +7,9 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.lisandro.app.classes.InputParser;
-import com.lisandro.app.classes.Operation;
-import com.lisandro.app.classes.OperationsRunner;
+import com.lisandro.app.classes.lambdas.InputParser;
+import com.lisandro.app.classes.lambdas.Operation;
+import com.lisandro.app.classes.lambdas.OperationsRunner;
 
 // Test for both the Operation and OperationsRunner classes.
 public class OperationsTest {
