@@ -32,6 +32,8 @@ public class GroupSumTest {
     @Test
     public void sumCheckShouldReturnProperly() {
         GroupSumClump gsc1 = new GroupSumClump(test, 20);
+        GroupSumClump gsc2 = new GroupSumClump(test, 30);
         assertTrue(gsc1.startSumCheck());
+        assertFalse(gsc2.startSumCheck());
     }
 }
